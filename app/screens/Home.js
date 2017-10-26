@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, View } from 'react-native';
 
 import PropTypes from 'prop-types';
 
-import { ContainerMain } from '../components/Container';
 import { LogoWithButton } from '../components/LogoButton';
 
 class Home extends Component {
@@ -13,10 +12,10 @@ class Home extends Component {
 
     render() {
         return (
-            <ContainerMain>
-                <StatusBar barStyle="light-content" />
+            <View style={{flex:1, backgroundColor: '#e0b826'}}>
+                <StatusBar barStyle="light-content" backgroundColor='#e0b826'/>
                 <LogoWithButton onPress={() => this.props.navigation.navigate('Start')} />
-            </ContainerMain>
+            </View>
         )
     }
 };
