@@ -13,8 +13,8 @@ class Home extends Component {
     render() {
         return (
             <View style={{flex:1, backgroundColor: '#e0b826'}}>
-                <StatusBar barStyle="light-content" backgroundColor='#e0b826'/>
-                <LogoWithButton onPress={() => this.props.navigation.navigate('Start')} />
+                <LogoWithButton title={'Start'} onPress={() => this.props.navigation.navigate('Start')} />
+                <LogoWithButton title={'UI'} onPress={() => this.props.navigation.navigate('UI')} />
             </View>
         )
     }

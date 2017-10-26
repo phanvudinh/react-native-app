@@ -23,7 +23,7 @@ const LogoWithButton = (props) => {
                 icon={{name: 'chevron-right', size: 20, type: 'octicon'}}
                 buttonStyle={{backgroundColor: styles.$buttonColor, borderRadius: 1}}
                 textStyle={{textAlign: 'center'}}
-                title='GO'
+                title={props.title}
                 onPress={props.onPress}
             />
         </View>
@@ -32,6 +32,7 @@ const LogoWithButton = (props) => {
 
 LogoWithButton.propTypes = {
     onPress: PropTypes.func,
+    title: PropTypes.string
 };
 
 const mapStateToProps = (state) => ({

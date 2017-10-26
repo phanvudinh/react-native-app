@@ -1,7 +1,20 @@
-import { StackNavigator } from 'react-navigation';
+import { StackNavigator, DrawerNavigator } from 'react-navigation';
 
 import Home from '../screens/Home';
 import Start from '../screens/Start';
+import UI from '../screens/UI';
+
+const DrawerScreen = DrawerNavigator(
+    {
+        UI: {
+            screen: UI
+        }
+    },
+    {
+      drawerPosition: 'left',
+      initialRouteName: 'UI',
+    }
+  )
 
 export default StackNavigator(
     {
@@ -17,9 +30,13 @@ export default StackNavigator(
             navigationOptions: {
                 headerTitle: 'Users'
             }
+        },
+        DrawerScreen: {
+            screen: DrawerScreen
         }
     },
     {
-        headerMode: 'screen'
+        headerMode: 'none',
+        mode: 'card'
     }
 )
