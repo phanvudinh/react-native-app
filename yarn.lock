@@ -3379,9 +3379,9 @@ react-native-swipeable@^0.6.0:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-swipeout@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-swipeout/-/react-native-swipeout-2.3.0.tgz#9e6f9c4adb7d0c2f9762c9ee3745f57f5cdd7f4c"
+react-native-swipeout@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-swipeout/-/react-native-swipeout-2.3.1.tgz#f33e852b46d2cddb878a431a1c696428e3d9d2a5"
   dependencies:
     create-react-class "^15.6.0"
     prop-types "^15.5.10"

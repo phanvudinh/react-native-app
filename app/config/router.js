@@ -21,6 +21,5 @@ export default StackNavigator(
     },
     {
         headerMode: 'screen'
-
     }
 )
