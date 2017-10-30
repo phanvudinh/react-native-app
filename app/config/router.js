@@ -8,6 +8,9 @@ const DrawerScreen = DrawerNavigator(
     {
         UI: {
             screen: UI
+        },
+        Start: {
+            screen: Start
         }
     },
     {

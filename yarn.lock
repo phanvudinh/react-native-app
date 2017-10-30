@@ -3369,15 +3369,15 @@ react-native-extended-stylesheet@^0.6.0:
     css-mediaquery "^0.1.2"
     object-resolve-path "^1.1.0"
 
+react-native-indicators@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-indicators/-/react-native-indicators-0.10.0.tgz#714c4e9955c73c3b5d2bbd6c021d6b7aab1a8072"
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-side-menu@^0.20.1:
   version "0.20.3"
   resolved "https://registry.yarnpkg.com/react-native-side-menu/-/react-native-side-menu-0.20.3.tgz#5dffe3e237018360ed081433d505ea454cba9ca4"
-
-react-native-swipeable@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/react-native-swipeable/-/react-native-swipeable-0.6.0.tgz#0fe551330018b83c754d27f505709a594f554370"
-  dependencies:
-    prop-types "^15.5.10"
 
 react-native-swipeout@2.3.1:
   version "2.3.1"
